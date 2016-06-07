@@ -9,9 +9,9 @@ use Symfony\Component\Config\Definition\Processor;
 use Symfony\Component\Config\FileLocator;
 
 /**
- * ReactInitExtension
+ * ReactIntegrationExtension
  */
-class ReactInitExtension extends Extension
+class ReactIntegrationExtension extends Extension
 {
     /**
      * Loads the StfalconTinymce configuration.
@@ -38,6 +38,6 @@ class ReactInitExtension extends Extension
      */
     public function getAlias()
     {
-        return 'react_init';
+        return 'react_integration';
     }
 }

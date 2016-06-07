@@ -17,9 +17,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $defaults = $this->getTinymceDefaults();
-
         $treeBuilder = new TreeBuilder();
+        $rootNode = $treeBuilder->root('react_init');
 
         return $treeBuilder;
     }

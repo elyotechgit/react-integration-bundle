@@ -4,5 +4,4 @@ services:
         arguments: ["@service_container"]
         public: false
         tags:
-            - { name: twig.extension }
-            - { alias: react_init }
+            - { name: twig.extension, alias: react_init }
