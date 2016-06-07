@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('react_init');
+        $rootNode = $treeBuilder->root('react_integration');
 
         $rootNode
             ->children()

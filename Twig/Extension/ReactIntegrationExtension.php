@@ -66,7 +66,7 @@ class ReactIntegrationExtension extends \Twig_Extension
     public function react_init()
     {
 
-        $config = $this->getParameter('react_init.config');
+        $config = $this->getParameter('react_integration.config');
 //        $baseURL = (!isset($config['base_url']) ? null : $config['base_url']);
 //
 //        /** @var $assets \Symfony\Component\Templating\Helper\CoreAssetsHelper */
