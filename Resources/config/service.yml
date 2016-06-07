@@ -1,0 +1,8 @@
+services:
+    twig.extension.react_init:
+        class: React\IntegrationBundle\Twig\Extension\ReactIntegrationExtension
+        arguments: ["@service_container"]
+        public: false
+        tags:
+            - { name: twig.extension }
+            - { alias: react_init }
