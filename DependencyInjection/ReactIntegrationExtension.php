@@ -23,6 +23,7 @@ class ReactIntegrationExtension extends Extension
     {
         // Get default configuration of the bundle
         $config = $this->processConfiguration(new Configuration(), $configs);
+        $container->setParameter('react_init.config', $config);
 
         // load dependency injection config
         $loader = new YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));

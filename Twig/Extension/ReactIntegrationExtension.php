@@ -66,7 +66,7 @@ class ReactIntegrationExtension extends \Twig_Extension
     public function react_init()
     {
 
-//        $config = $this->getParameter('stfalcon_tinymce.config');
+        $config = $this->getParameter('react_init.config');
 //        $baseURL = (!isset($config['base_url']) ? null : $config['base_url']);
 //
 //        /** @var $assets \Symfony\Component\Templating\Helper\CoreAssetsHelper */
@@ -105,6 +105,7 @@ class ReactIntegrationExtension extends \Twig_Extension
 //            'include_jquery' => $config['include_jquery'],
 //            'tinymce_jquery' => $config['tinymce_jquery'],
 //            'base_url'       => $baseURL
+            'config'        => $config
         ));
     }
 

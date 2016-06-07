@@ -20,6 +20,14 @@ class Configuration implements ConfigurationInterface
         $treeBuilder = new TreeBuilder();
         $rootNode = $treeBuilder->root('react_init');
 
+        $rootNode
+            ->children()
+                ->integerNode('test1')->end()
+                ->booleanNode('test2')->end()
+            ->end()
+        ;
+
+
         return $treeBuilder;
     }
 }
