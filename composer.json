@@ -1,0 +1,9 @@
+{
+  "name": "hddbogdan/react-integration-bundle",
+  "description": "A Symfony Bundle for integrating ReactJS application within the Symfony project.",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/framework-bundle": "2.*"
+  },
+}
