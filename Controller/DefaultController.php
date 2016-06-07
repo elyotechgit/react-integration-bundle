@@ -1,6 +1,6 @@
 <?php
 
-namespace ReactIntegrationBundle\Controller;
+namespace React\IntegrationBundle\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
