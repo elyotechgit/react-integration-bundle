@@ -1,6 +1,6 @@
 <?php
 
-namespace ReactIntegrationBundle;
+namespace React\IntegrationBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
