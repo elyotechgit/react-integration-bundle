@@ -63,9 +63,8 @@ class ReactIntegrationExtension extends \Twig_Extension
      *
      * @return string
      */
-    public function react_init()
+    public function react_init($options=[])
     {
-
         $config = $this->getParameter('react_integration.config');
 //        $baseURL = (!isset($config['base_url']) ? null : $config['base_url']);
 //
@@ -105,7 +104,8 @@ class ReactIntegrationExtension extends \Twig_Extension
 //            'include_jquery' => $config['include_jquery'],
 //            'tinymce_jquery' => $config['tinymce_jquery'],
 //            'base_url'       => $baseURL
-            'config'        => $config
+            'config'        => $config,
+            'options'       => $options
         ));
     }
 
